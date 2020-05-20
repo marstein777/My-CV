@@ -5,7 +5,6 @@ body {
   background-color: wheat;
 }
 
-
 .container {
   display: grid;
   width: 90%;
@@ -40,7 +39,6 @@ li {
   border-radius: 50%;
   object-fit: cover;
 }
-
 
 .header {
   font-size: x-large;
