@@ -1,1 +1,69 @@
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: wheat;
+
+}
+
+.container {
+  display: grid;
+  width: 90%;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  grid-template-rows: 20% auto;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.header {
+  font-size: x-large;
+  grid-column: 1 /3;
+  grid-row: 1;
+}
+
+.tel {
+width: 20px;
+height: 20px;
+}
+
+.mail {
+  width: 20px;
+  height: 20px;
+}
+
+.titre {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+.h2_competences {
+  grid-column: 1 / 4;
+  grid-row: 3;
+}
+
+.col_competences {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.txt_competences {
+  grid-column: 2 / 4;
+  grid-row: 4;
+}
+
+.h2_experiences {
+  grid-column: 1 / 4;
+  grid-row: 5;
+}
+.col_experiences {
+  grid-column: 1 ;
+  grid-row: 6;
+}
+
+.txt_experiences {
+  grid-column: 2 / 4;
+  grid-row: 6;
+}
+
 
