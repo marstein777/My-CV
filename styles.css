@@ -6,8 +6,6 @@ body {
 }
 
 
-
-
 .container {
   display: grid;
   width: 90%;
@@ -15,7 +13,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr  ;
   grid-template-rows: 20% auto;
   grid-gap: 20px;
-  align-items: stretch;
+  align-items:center;
+  justify-items: center;
+  font-size: large;
+}
+
+li {
+  margin-bottom: 30px;
 }
 
 .photo {
@@ -25,15 +29,16 @@ body {
  align-items: center;
  border: 1px black solid;
  border-radius: 50%;
- width: 150px;
- height: 150px;
+ width: 180px;
+ height: 180px;
  overflow: hidden;
 }
 
-.photo.img{
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 
@@ -59,52 +64,41 @@ height: 20px;
 }
 
 .h2_competences {
-  grid-column: 1 / 4;
+  grid-column: 2;
   grid-row: 3;
 }
 
-.col_competences {
-  grid-column: 1;
-  grid-row: 4;
-}
-
-.liW {
-  margin-bottom: 18px;
-}
-
-.liA {
-  margin-bottom: 33px;
-}
-
-.liB {
-  margin-bottom: 33px;
-}
-
-.liT {
-  margin-bottom: 35px;
-}
-
-.liL {
-  margin-bottom: 30px;
-}
-
-.txt_competences {
-  grid-column: 2 / 4;
+.competences {
+  grid-column: 1 / 4;
   grid-row: 4;
 }
 
 .h2_experiences {
-  grid-column: 1 / 4;
+  grid-column: 2;
   grid-row: 5;
 }
-.col_experiences {
-  grid-column: 1 ;
+.experiences {
+  grid-column: 1 / 4 ;
   grid-row: 6;
 }
 
-.txt_experiences {
-  grid-column: 2 / 4;
-  grid-row: 6;
+.h2_formations {
+  grid-column: 2;
+  grid-row: 7;
 }
 
+.formations {
+  grid-column: 1 / 4 ;
+  grid-row: 8;
+}
+
+.h2_hobbies {
+  grid-column: 2 ;
+  grid-row: 9;
+}
+
+.hobbies {
+  grid-column: 1 / 4 ;
+  grid-row: 10;
+}
 
