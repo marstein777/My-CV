@@ -1,0 +1,105 @@
+
+
+
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: wheat;
+}
+
+.container {
+  display: grid;
+  width: 90%;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  grid-template-rows: 20% auto;
+  grid-gap: 20px;
+  align-items:center;
+  justify-items: center;
+  font-size: large;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+.photo {
+ display: inline-block;
+ grid-column: 1;
+ grid-row: 1;
+ align-items: center;
+ border: 1px black solid;
+ border-radius: 50%;
+ width: 180px;
+ height: 180px;
+ overflow: hidden;
+}
+
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header {
+  font-size: x-large;
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+.tel {
+width: 20px;
+height: 20px;
+}
+
+.mail {
+  width: 20px;
+  height: 20px;
+}
+
+.titre {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+.h2_competences {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.competences {
+  grid-column: 1 / 4;
+  grid-row: 4;
+}
+
+.h2_experiences {
+  grid-column: 2;
+  grid-row: 5;
+}
+.experiences {
+  grid-column: 1 / 4 ;
+  grid-row: 6;
+}
+
+.h2_formations {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.formations {
+  grid-column: 1 / 4 ;
+  grid-row: 8;
+}
+
+.h2_hobbies {
+  grid-column: 2 ;
+  grid-row: 9;
+}
+
+.hobbies {
+  grid-column: 1 / 4 ;
+  grid-row: 10;
+}
+
